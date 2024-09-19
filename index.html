@@ -9,10 +9,45 @@
 <body>
 
     <header class="header container-fluid py-4 mb-3">
-        <div class="container d-flex">
-            <h1 class="fs-4 m-0 bg-dark text-white py-2 px-2">MA</h1>
-        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="container d-flex">
+                        <h1 class="fs-4 m-0 bg-dark text-white py-2 px-2">MA</h1>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Importação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">TOP Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Dúvidas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <section class="banner text-center container">
+        <img src="https://via.placeholder.com/1440x250"  class="img-fluid" alt="Banner aqui" />
+    </section>
 
     <main class="container">
         <h2 class="fw-light my-5 text-center"><span class="text-warning">|</span> Produtos em Oferta <span class="text-warning">|</span></h2>
@@ -27,5 +62,6 @@
     </footer>
 
 </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./products-list.js"></script>
 </html>
